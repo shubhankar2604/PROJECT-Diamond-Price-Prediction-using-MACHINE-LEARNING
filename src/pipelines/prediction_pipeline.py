@@ -66,7 +66,7 @@ class CustomData:
             logging.info('Dataframe Gathered')
             return df
         except Exception as e:
-            logging.info('Exception Occured in prediction pipeline')
+            logging.info('Exception occured in prediction pipeline')
             raise CustomException(e,sys)
 
 
