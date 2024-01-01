@@ -1,5 +1,5 @@
 from sklearn.impute import SimpleImputer ## Handling Missing Values
-from sklearn.preprocessing import StandardScaler # HAndling Feature Scaling
+from sklearn.preprocessing import StandardScaler # Handling Feature Scaling
 from sklearn.preprocessing import OrdinalEncoder # Ordinal Encoding
 ## pipelines
 from sklearn.pipeline import Pipeline
